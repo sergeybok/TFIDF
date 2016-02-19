@@ -1,0 +1,9 @@
+README
+have the folder all-OANC-dir in the same directory as the python script
+run via - python TF_IDF.py 0 - , if you want closed class stop words removed
+and - python TF_IDF.py 1 - , if you want to keep them
+
+It takes a while to run, but I have a print statement that updates you on your progress. I also have commented out an if statement which only reads half the files, which I used to test, because it takes  ~3 mins to run on my machine with all the files
+
+PS I understood the hw as saying, at least 2 times per document, which is how I implemented it.
+
